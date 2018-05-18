@@ -1,0 +1,291 @@
+.submenu{
+    overflow: hidden;
+    padding: 10px 60px 0px 60px;
+    width: 100%;
+    background-color: #3F51B5;
+}
+
+.submenu-contato {
+	width: 50%;
+	float: left;
+}
+
+.submenu-contato ul {
+	list-style: none;
+	display: inline-block;
+}
+
+.submenu-contato ul li {
+	float: left;
+	padding-left: 20px;
+}
+
+.submenu-contato ul li a{
+	color: #fff;
+}
+
+.submenu-midias-sociais{
+	width: 50%;
+	float: right;
+}
+
+.submenu-midias-sociais ul {
+	list-style: none;
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+}
+
+.submenu-midias-sociais ul li {
+	float: left;
+	padding-left: 20px;
+}
+
+.submenu-midias-sociais ul li a {
+	color: #fff;
+}
+
+.green-icon i {
+	color: #a4d072;
+	background-color:  #fff;
+	border-radius: 15px;
+	font-size:  24px;
+	height: 22px;
+}
+
+.esp-itens-help-l1{
+	margin-left: 10px!important;
+}
+
+.esp-itens-help{
+	padding-left: 10px!important;
+}
+
+.PrimeiroBannerHome {
+	background-image: url(../img/banner-home.jpg);
+	height: 300px;
+	background-position: top;
+	background-size: cover;
+}
+
+
+.TitleBannerHome {
+	padding-top: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.TitleBannerHome h1 a {
+	color: #fff;
+}
+
+.BotoesBannerHome {
+	padding-top: 10px;
+}
+
+.BotaoBannerHomeTransparente {
+	margin-top: 20px;
+	background: transparent;
+	line-height: 58px;
+	color: #fff;
+	text-align: center;
+	max-width: 240px;
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	transition: all 400ms linear 0s;
+	border: 3px solid #fff;
+	border-radius: 0px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.BotaoBannerHomeTransparente:hover{
+	color: #000;
+    background: #f5f5f59c;
+    font-weight: bold;
+}
+
+.PrincipaisVagasHome{
+	padding: 40px 0px 20px 0px;
+}
+
+.QuemSomosHome {
+	margin: 40px 0px 0px 0px;
+	text-align: center;
+	background-image: url(../img/banner-home.jpg);
+	height: 300px;
+	background-position: top;
+	background-size: cover;
+	color: #fff;
+}
+
+.QuemSomosHome h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.QuemSomosHome p {
+	font-size: 19px;
+	padding: 0px 50px;
+}
+
+.WebSeria{
+	padding: 40px 0px 40px 0px;
+	text-align: center;
+	display: inline-block;
+}
+
+.WebSeriaTitle{
+	padding: 0px 0px 30px 0px;
+
+}
+
+.WebSeriaBox {
+	padding-bottom: 40px;
+}
+
+.WebSeriaBox h5 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.list-group a {
+	color: #000;
+}
+/* ---------------- */
+
+.Newsletter{
+	background-image: url(../img/banner-home.jpg);
+	height: 250px;
+	background-position: top;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+}
+
+
+.Newsletter h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.Newsletter p {
+	font-size: 19px;
+	padding: 0px 50px;
+	margin-bottom: 40px;
+}
+
+.BannerInicioPagina {
+	background-image: url(../img/banner-home.jpg);
+	height: 200px;
+	padding-top: 50px;
+	background-position: top;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.formContato {
+  padding: 40px;
+}
+
+.formContato form div{
+ margin-bottom: 25px;
+}
+.formContato form div input {
+ border: 1px solid #515151;
+ border-radius: 0px;
+ height: 40px;
+ outline: none;
+ box-shadow: none;
+ font-size: 14px;
+ color: #262626;
+ width: 100%;
+ padding-left: 10px;
+}
+
+.formContato form div textarea {
+ height: 168px;
+ width: 100%;
+ box-shadow: none;
+ font-size: 14px;
+ color: rgb(38, 38, 38);
+ resize: none;
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(81, 81, 81);
+ border-image: initial;
+ border-radius: 0px;
+ outline: none;
+}
+
+.formContato form div label {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #262626;
+  padding-bottom: 18px;
+  margin-bottom: 0px;
+}
+
+.formDadosContato{
+  padding-top: 40px;
+}
+
+.buttonWhatsApp{
+  margin-top: 20px;
+  background: limegreen;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  /* max-width: 132px; */
+  /* display: inline-block; */
+  width: 100%;
+  font-size: 18px;
+  transition: all 400ms linear 0s;
+  border: 1px solid;
+  /* border-radius: 0px; */
+  /* margin-right: 10px; */
+  /* margin-bottom: 20px; */
+}
+
+.buttonWhatsApp:hover {
+  background: darkgreen;
+  color: #fff;
+  font-weight:  bold;
+  border:  1px solid #fff;
+}
+
+.rodape {
+	clear: both;
+}
+
+.rodape-conteudo{
+	padding: 20px 0px 20px 0px;
+	background-color: #3f51b5;
+}
+
+.rodape-listas div h3 a {
+	color: #fff;
+	font-weight: bold;
+}
+.rodape-listas div ul {
+	display: inline-block;
+	color: #FFF;
+}
+.rodape-listas div ul li a{
+	color: #fff;
+}
+
+.rodape-copyright{
+  background: #e5e5e5;
+  text-align: center;
+}
+
+.rodape-copyright h5 {
+  font-size: 13px;
+  color: #333333;
+  line-height: 40px;
+}
