@@ -1,8 +1,8 @@
 .submenu{
-    overflow: hidden;
-    padding: 10px 60px 0px 60px;
-    width: 100%;
-    background-color: #3F51B5;
+	overflow: hidden;
+	padding: 10px 60px 0px 60px;
+	width: 100%;
+	background-color: #3F51B5;
 }
 
 .submenu-contato {
@@ -71,8 +71,8 @@
 
 .TitleBannerHome {
 	padding-top: 50px;
-    color: #fff;
-    font-weight: bold;
+	color: #fff;
+	font-weight: bold;
 }
 
 .TitleBannerHome h1 a {
@@ -102,8 +102,8 @@
 
 .BotaoBannerHomeTransparente:hover{
 	color: #000;
-    background: #f5f5f59c;
-    font-weight: bold;
+	background: #f5f5f59c;
+	font-weight: bold;
 }
 
 .PrincipaisVagasHome{
@@ -111,13 +111,15 @@
 }
 
 .QuemSomosHome {
-	margin: 40px 0px 0px 0px;
+	margin: 0px;
 	text-align: center;
-	background-image: url(../img/banner-home.jpg);
-	height: 300px;
+	background-image: url(../img/background-img-quem-somos.jpg);
+	height: 400px;
 	background-position: top;
 	background-size: cover;
 	color: #fff;
+	background-attachment: fixed;
+	padding: 40px 0px;
 }
 
 .QuemSomosHome h2 {
@@ -145,24 +147,48 @@
 	padding-bottom: 40px;
 }
 
-.WebSeriaBox h5 {
+.WebSeriaBox p{
 	padding-top: 10px;
 	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.WebSeriaBox button {
+	background-color: #cc181e;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px transparent;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+
+.WebSeriaBox button:hover{
+	background-color: #b31217;
 }
 
 .list-group a {
 	color: #000;
 }
+
+.list-group a:hover{
+	color: #3f51b5;
+}
 /* ---------------- */
 
 .Newsletter{
-	background-image: url(../img/banner-home.jpg);
-	height: 250px;
-	background-position: top;
+	background-image: url(../img/background-newsletter.jpg);
+	height: 300px;
+	background-position: center;
 	background-size: cover;
 	text-align: center;
 	color: #fff;
 	display: inline-block;
+	width: 100%;
+	background-attachment:  fixed;
+	margin: 0px;
+    padding: 20px 0px;
+    margin-bottom: -5px;
 }
 
 
@@ -189,73 +215,73 @@
 }
 
 .formContato {
-  padding: 40px;
+	padding: 40px;
 }
 
 .formContato form div{
- margin-bottom: 25px;
+	margin-bottom: 25px;
 }
 .formContato form div input {
- border: 1px solid #515151;
- border-radius: 0px;
- height: 40px;
- outline: none;
- box-shadow: none;
- font-size: 14px;
- color: #262626;
- width: 100%;
- padding-left: 10px;
+	border: 1px solid #515151;
+	border-radius: 0px;
+	height: 40px;
+	outline: none;
+	box-shadow: none;
+	font-size: 14px;
+	color: #262626;
+	width: 100%;
+	padding-left: 10px;
 }
 
 .formContato form div textarea {
- height: 168px;
- width: 100%;
- box-shadow: none;
- font-size: 14px;
- color: rgb(38, 38, 38);
- resize: none;
- border-width: 1px;
- border-style: solid;
- border-color: rgb(81, 81, 81);
- border-image: initial;
- border-radius: 0px;
- outline: none;
+	height: 168px;
+	width: 100%;
+	box-shadow: none;
+	font-size: 14px;
+	color: rgb(38, 38, 38);
+	resize: none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(81, 81, 81);
+	border-image: initial;
+	border-radius: 0px;
+	outline: none;
 }
 
 .formContato form div label {
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #262626;
-  padding-bottom: 18px;
-  margin-bottom: 0px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #262626;
+	padding-bottom: 18px;
+	margin-bottom: 0px;
 }
 
 .formDadosContato{
-  padding-top: 40px;
+	padding-top: 40px;
 }
 
 .buttonWhatsApp{
-  margin-top: 20px;
-  background: limegreen;
-  line-height: 50px;
-  color: #fff;
-  text-align: center;
-  /* max-width: 132px; */
-  /* display: inline-block; */
-  width: 100%;
-  font-size: 18px;
-  transition: all 400ms linear 0s;
-  border: 1px solid;
-  /* border-radius: 0px; */
-  /* margin-right: 10px; */
-  /* margin-bottom: 20px; */
+	margin-top: 20px;
+	background: limegreen;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+	/* max-width: 132px; */
+	/* display: inline-block; */
+	width: 100%;
+	font-size: 18px;
+	transition: all 400ms linear 0s;
+	border: 1px solid;
+	/* border-radius: 0px; */
+	/* margin-right: 10px; */
+	/* margin-bottom: 20px; */
 }
 
 .buttonWhatsApp:hover {
-  background: darkgreen;
-  color: #fff;
-  font-weight:  bold;
-  border:  1px solid #fff;
+	background: darkgreen;
+	color: #fff;
+	font-weight:  bold;
+	border:  1px solid #fff;
 }
 
 .rodape {
@@ -263,8 +289,8 @@
 }
 
 .rodape-conteudo{
-	padding: 20px 0px 20px 0px;
-	background-color: #3f51b5;
+	padding: 40px 0px 60px 0px;
+	background-color: #334086;
 }
 
 .rodape-listas div h3 a {
@@ -280,12 +306,51 @@
 }
 
 .rodape-copyright{
-  background: #e5e5e5;
-  text-align: center;
+	background: #e5e5e5;
+	text-align: center;
 }
 
 .rodape-copyright h5 {
-  font-size: 13px;
-  color: #333333;
-  line-height: 40px;
+	font-size: 13px;
+	color: #333333;
+	line-height: 40px;
+}
+
+.navbar-login{
+	background: #a4d072;
+	border-radius: 8px;
+}
+
+.navbar-login li a{
+	color: #fff!important;
+	font-weight: bold;
+}
+
+.descricaoVaga{
+	font-weight: bold;
+	color: #3f51b5;
+}
+
+.BotaoBuscarMaisVagas:hover{
+	color: #333;
+	background: transparent;
+	font-weight: bold;
+	border: 1px solid #000;
+}
+
+.BotaoBuscarMaisVagas {
+	margin-top: 20px;
+    background: #3f51b5;
+    line-height: 58px;
+    color: #fff;
+    text-align: center;
+    max-width: 240px;
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    transition: all 400ms linear 0s;
+    border: 3px solid #fff;
+    border-radius: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }

@@ -2,7 +2,7 @@
    <div class="col-md-12">
       <div class="col-md-12">
          <h2>NEWSLETTER</h2>
-         <p>Digite seu endereço de e-mail para obter as últimas novidades do SYSWEB PCD, oportunidades de emprego e agenda dos stands entregues diretamente na sua caixa de entrada.</p>
+         <p>Digite seu endereço de e-mail para obter as últimas novidades do SYSWEB PCD</p>
       </div>
       <div class="col-md-12">
          <form>

@@ -6,8 +6,8 @@
             <h1><a href="#">Agência de Empregos para pessoas com deficiência</a></h1>
          </div>
          <div class="col-md-12 text-center BotoesBannerHome">
-            <button class="BotaoBannerHomeTransparente">Cadastre seu currículo</button>
-            <button class="BotaoBannerHomeTransparente">Abra sua vaga</button>
+            <button class="BotaoBannerHomeTransparente" onclick="window.open('cadastroCurriculo.php', '_self');">Cadastre seu currículo</button>
+            <button class="BotaoBannerHomeTransparente" onclick="window.open('AnunciarVaga.php', '_self');">Abra sua vaga</button>
          </div>
       </div>
    </div>
@@ -16,95 +16,58 @@
    <article class="PrincipaisVagasHome">
       <div class="container">
          <div class="row">
-            <div class="col-md-6 text-center">
+            <div class="col-md-12 text-center">
                <div class="col-md-12">
-                  <h2>Vagas de Empregos</h2>
+                  <h2>Principais Vagas de Emprego</h2>
                </div>
                <div class="col-md-12">
                   <ul class="list-group">
                      <li class="list-group-item">
-                        <a href="">
-                        <span class="badge">458</span>
-                        Telecomunicações
+                        <a href="#">
+                           <span class="badge">Candidatar-se</span>
+                           <span class="descricaoVaga">Desenvolvedor JAVA Pl -</span> Júnior/Trainee - São Paulo / SP / BR
                         </a>
                      </li>
-                     <li class="list-group-item">
-                        <a href="">
-                        <span class="badge">654</span>
-                        Educação
+<li class="list-group-item">
+                        <a href="#">
+                           <span class="badge">Candidatar-se</span>
+                           <span class="descricaoVaga">Desenvolvedor JAVA Pl -</span> Júnior/Trainee - São Paulo / SP / BR
                         </a>
-                     </li>
+                     </li>                     
                      <li class="list-group-item">
-                        <a href="">
-                        <span class="badge">47</span>
-                        Aprendiz (PCD)
+                        <a href="#">
+                           <span class="badge">Candidatar-se</span>
+                           <span class="descricaoVaga">Desenvolvedor JAVA Pl -</span> Júnior/Trainee - São Paulo / SP / BR
                         </a>
-                     </li>
+                     </li>                     
                      <li class="list-group-item">
-                        <a href="">
-                        <span class="badge">852</span>
-                        Atendimento ao Cliente
+                        <a href="#">
+                           <span class="badge">Candidatar-se</span>
+                           <span class="descricaoVaga">Desenvolvedor JAVA Pl -</span> Júnior/Trainee - São Paulo / SP / BR
                         </a>
-                     </li>
+                     </li>                     
                      <li class="list-group-item">
-                        <a href="">
-                        <span class="badge">124</span>
-                        Comercial Administrativa
+                        <a href="#">
+                           <span class="badge">Candidatar-se</span>
+                           <span class="descricaoVaga">Desenvolvedor JAVA Pl -</span> Júnior/Trainee - São Paulo / SP / BR
                         </a>
-                     </li>
+                     </li>                     
                      <li class="list-group-item">
-                        <span class="badge">2000</span>
-                        TOTAL DE VAGAS:
-                     </li>
+                        <a href="#">
+                           <span class="badge">Candidatar-se</span>
+                           <span class="descricaoVaga">Desenvolvedor JAVA Pl -</span> Júnior/Trainee - São Paulo / SP / BR
+                        </a>
+                     </li>                     
+
                   </ul>
                </div>
-            </div>
-            <div class="col-md-6 text-center">
                <div class="col-md-12">
-                  <h2>Vitrine Profissional (Currículos)</h2>
-               </div>
-               <div class="col-md-12">
-                  <ul class="list-group">
-                     <li class="list-group-item">
-                        <a href="">
-                        <span class="badge">53812</span>
-                        Contrato CLT
-                        </a>
-                     </li>
-                     <li class="list-group-item">
-                        <a href="">
-                        <span class="badge">2406</span>
-                        Estagiário
-                        </a>
-                     </li>
-                     <li class="list-group-item">
-                        <a href="">
-                        <span class="badge">1421</span>
-                        Tercerizado
-                        </a>
-                     </li>
-                     <li class="list-group-item">
-                        <a href="">
-                        <span class="badge">1260</span>
-                        Temporario
-                        </a>
-                     </li>
-                     <li class="list-group-item">
-                        <a href="">
-                        <span class="badge">578</span>
-                        Freelancer
-                        </a>
-                     </li>
-                     <li class="list-group-item">
-                        <span class="badge">8886</span>
-                        TOTAL DE CURRÍCULOS: 
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </div>
-   </article>
+                 <button class="BotaoBuscarMaisVagas" onclick="window.open('BucarVagas.php', '_self');">Buscar Mais Vagas</button>
+              </div>
+           </div>
+        </div>
+     </div>
+  </article>
 </main>
 <article class="QuemSomosHome">
    <div class="col-md-12">
@@ -117,7 +80,7 @@
          </p>
       </div>
       <div class="col-md-12">
-         <button class="BotaoBannerHomeTransparente">Sabia Mais</button>
+         <button class="BotaoBannerHomeTransparente" onclick="window.open('quemSomos.php', '_self');">Sabia Mais</button>
       </div>
    </div>
 </article>
@@ -129,18 +92,18 @@
    <div class="col-md-12">
       <div class="col-md-4 WebSeriaBox">
          <img src="img/DimensoesAcessibilidade.jpg" alt="Dimensões da Acessibilidade">
-         <h5>Dimensões da Acessibilidade</h5>
-         <button>ASSISTA AO VÍDEO</button>
+         <p>Dimensões da Acessibilidade</p>
+         <button onclick="window.open('https://www.youtube.com', '_blank');"><i class="fa fa-youtube-play"></i> ASSISTA AO VÍDEO</button>
       </div>
       <div class="col-md-4 WebSeriaBox">
          <img src="img/PerfildoProfissionalPCD.jpg" alt="Perfil do Profissional PCD">
-         <h5>Perfil do Profissional PCD</h5>
-         <button>ASSISTA AO VÍDEO</button>
+         <p>Perfil do Profissional PCD</p>
+         <button onclick="window.open('https://www.youtube.com', '_blank');"><i class="fa fa-youtube-play"></i> ASSISTA AO VÍDEO</button>
       </div>
       <div class="col-md-4 WebSeriaBox">
          <img src="img/CandidatoPCDeoBPC.jpg" alt="Candidato PCD e o BPC">
-         <h5>Candidato PCD e o BPC</h5>
-         <button>ASSISTA AO VÍDEO</button>
+         <p>Candidato PCD e o BPC</p>
+         <button onclick="window.open('https://www.youtube.com', '_blank');"><i class="fa fa-youtube-play"></i> ASSISTA AO VÍDEO</button>
       </div>
    </div>
 </article>
