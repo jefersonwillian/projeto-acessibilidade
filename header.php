@@ -13,7 +13,7 @@
    <meta name="description" content= "SYSWEB PCD: Vagas de Emprego para Deficientes, são milhares de Vagas e Currículos de PCD no maior site de Empregos de pessoas com Deficiência do Brasil."/>
    <meta name="subject" content="Vagas de Empregos para Deficientes PCD"/>
    <meta name="language" content="pt-BR">
-   <meta name="abstract" content="Salão de Cabelereiro Sorocaba, aqui você irá ficar linda para eventos, festas, dia a dia, casamentos e ocasiões especiais."/>
+   <meta name="abstract" content=""/>
    <meta name="author" content="SYSWEB PCD"/>
    <meta name="url" content="syswebpcd.com.br"/>
    <meta name="identifier-URL" content="syswebpcd.com.br" />
@@ -21,9 +21,13 @@
    <meta name="HandheldFriendly" content="True">
    <!-- Bootstrap -->
    <link href="css/bootstrap.css" rel="stylesheet">
-   <link href="css/style.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet" title="1">
+   <link href="css/escuro.css" rel="stylesheet" title="2">
    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script src="js/alert.js"></script>
+
    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
@@ -32,21 +36,44 @@
 
    <![endif]-->
 </head>
-<body>
- <header>
+<script>
+   function fonte(e){
+      var elemento = document.getElementById("conteudo");
+      var atual = elemento.style.fontSize;
+      if (e == 'a') {
+         atual = parseInt(atual)+1+'px';
+      }else if (e == 'b') {
+         atual = parseInt(atual)-1+'px';
+      }
+
+      elemento.style.fontSize=atual;
+   }
+
+   function cor(e){
+      e.preventDefault();
+      if ( getActiveStyleSheet() == '1') {
+       setActiveStyleSheet('2');
+    } else {
+       setActiveStyleSheet('1');
+    }
+
+ } 
+
+</script>
+<body id="conteudo" style="font-size: 14px;">
+  <header>
    <nav class="submenu">
       <div class="submenu-contato">
          <ul>
             <li class="esp-itens-help-l1">
-               <a href="" class="green-icon" onclick="aumentarZoom()">
-                  <i class="fa fa-plus-circle"></i>
-               </a>
+               <button type="button" value="+" onclick="fonte('a');" class="buttonAce"><i class="fa fa-plus-circle"></i> Aumentar Fonte</button>
             </li>
             <li class="esp-itens-help">
-               <a href="" class="green-icon">
-                  <i class="fa fa-exclamation-circle"></i>
-               </a>
+               <button type="button" value="+" onclick="fonte('b');"  class="buttonAce"><i class="fa fa-minus-circle" id="btnDiminuir"></i> Diminuir Fonte</button>
             </li>
+            <li class="esp-itens-help">
+               <button class="buttonAce" onclick="cor('1')"><i class="fa fa-image"></i> Alterar Contraste do Site</button>
+            </li>            
          </ul>
       </div>
       <div class="submenu-midias-sociais">
@@ -84,13 +111,15 @@
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">SYSWEB PCD</a>
+            <a class="navbar-brand" href="index.php">
+               <p>SYSWEB PCD</p>
+            </a>
          </div>
          <!-- Collect the nav links, forms, and other content for toggling -->
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                <li>
-                  <a href="index.php">Home</a>
+                  <a href="index.php" name="topo">Home</a>
                </li>
                <li>
                   <a href="quemSomos.php">Quem Somos</a>
@@ -118,7 +147,7 @@
                   </a>
                </li>
                <li>
-                  <a href="index.php">
+                  <a href="login.php">
                      Login
                   </a>
                </li>

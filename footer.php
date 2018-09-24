@@ -56,7 +56,8 @@
       </div>
    </div>
    <div class="col-md-12 rodape-copyright">
-      <h5>© Copyright 2018 - SYS WEB</h5>
+      <h5 tabindex="0">© Copyright 2018 - SYS WEB</h5>
+      <a href="#topo">Volta para o Topo da Página</a>
    </div>
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

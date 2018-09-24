@@ -1,3 +1,10 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+}
 .submenu{
 	overflow: hidden;
 	padding: 10px 60px 0px 60px;
@@ -10,9 +17,19 @@
 	float: left;
 }
 
+.buttonAce{
+	background-color: transparent;
+	border: 1px solid transparent;
+	color: #fff;
+}
+
 .submenu-contato ul {
 	list-style: none;
 	display: inline-block;
+}
+
+.color-black {
+	color: #000;
 }
 
 .submenu-contato ul li {
@@ -46,11 +63,7 @@
 }
 
 .green-icon i {
-	color: #a4d072;
-	background-color:  #fff;
-	border-radius: 15px;
-	font-size:  24px;
-	height: 22px;
+	
 }
 
 .esp-itens-help-l1{
@@ -110,6 +123,23 @@
 	padding: 40px 0px 20px 0px;
 }
 
+.Login {
+	padding: 40px 0px 20px 0px;
+}
+
+.formLogin {
+	padding-right: 30%!important;
+	padding-left: 30%!important;
+}
+
+.LeideCotas {
+	padding: 40px 0px 20px 0px;
+}
+
+.fiscalizacaoPagina {
+	padding: 40px 0px 20px 0px;
+}
+
 .QuemSomosHome {
 	margin: 0px;
 	text-align: center;
@@ -132,10 +162,13 @@
 	padding: 0px 50px;
 }
 
+.QuemSomos{
+	padding: 40px 0px;
+}
+
 .WebSeria{
 	padding: 40px 0px 40px 0px;
 	text-align: center;
-	display: inline-block;
 }
 
 .WebSeriaTitle{
@@ -147,6 +180,10 @@
 	padding-bottom: 40px;
 }
 
+.WebSeriaBox img{
+	width: 100%;
+}
+
 .WebSeriaBox p{
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -155,12 +192,12 @@
 
 .WebSeriaBox button {
 	background-color: #cc181e;
-    padding: 10px;
-    border-radius: 5px;
-    border: solid 1px transparent;
-    color: #fff;
-    cursor: pointer;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+	padding: 10px;
+	border-radius: 5px;
+	border: solid 1px transparent;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.05);
 }
 
 .WebSeriaBox button:hover{
@@ -187,8 +224,8 @@
 	width: 100%;
 	background-attachment:  fixed;
 	margin: 0px;
-    padding: 20px 0px;
-    margin-bottom: -5px;
+	padding: 20px 0px;
+	margin-bottom: -5px;
 }
 
 
@@ -308,12 +345,14 @@
 .rodape-copyright{
 	background: #e5e5e5;
 	text-align: center;
+	padding: 10px 0px;
 }
 
 .rodape-copyright h5 {
 	font-size: 13px;
 	color: #333333;
 	line-height: 40px;
+	margin: 0px;
 }
 
 .navbar-login{
@@ -340,17 +379,430 @@
 
 .BotaoBuscarMaisVagas {
 	margin-top: 20px;
-    background: #3f51b5;
-    line-height: 58px;
-    color: #fff;
-    text-align: center;
-    max-width: 240px;
-    display: inline-block;
-    width: 100%;
-    font-size: 18px;
-    transition: all 400ms linear 0s;
-    border: 3px solid #fff;
-    border-radius: 0px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+	background: #3f51b5;
+	line-height: 58px;
+	color: #fff;
+	text-align: center;
+	max-width: 240px;
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	transition: all 400ms linear 0s;
+	border: 3px solid #fff;
+	border-radius: 0px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.form-news input{border: 1px solid #515151;border-radius: 0px;height: 40px;outline: none;box-shadow: none;font-size: 14px;color: #262626;width: 30%;padding-left: 10px;}
+
+.form-news button{
+	background-color: #334086;
+	padding: 9px 20px;
+	border: 1px solid #334086;
+	border-radius: 0px;
+}
+
+.select-form {
+	border: 1px solid #515151;
+	border-radius: 0px;
+	height: 40px;
+	outline: none;
+	box-shadow: none;
+	font-size: 14px;
+	color: #262626;
+	width: 100%;
+	padding-left: 10px;
+}
+
+.checkboxform{
+	border: 1px solid #515151!important;
+	border-radius: 0px!important;
+	height: 12px!important;
+	outline: none;
+	box-shadow: none!important;
+	font-size: 14px!important;
+	color: #262626!important;
+	width: 2%!important;
+	padding-left: 1px!important;	
+}
+
+.formContato form div span {
+	color: red;
+	font-weight: bold;
+}
+
+.radio .redio-filho {
+	/* border: 1px solid #515151; */
+	/* border-radius: 0px; */
+	height: 12px!important; 
+	/* outline: none; */
+	/* box-shadow: none; */
+	/* font-size: 14px; */
+	/* color: #262626; */
+	width: 2%;
+	/* padding-left: 10px; */
+	/* display: none; */
+	position: inherit!important;;
+	margin-left: 0px!important;
+}
+
+.linha-exp{
+	border-bottom: 1px solid #334086;
+}
+
+.red-title {
+	color: red;
+}
+
+.button-enviar {
+	background-color: #81ca2c;
+	padding: 9px 20px;
+	border: 1px solid #81ca2c;
+	border-radius: 0px;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.AnunciarVaga {
+	padding: 40px 0px;
+}
+
+.ContatoForm {
+	padding: 40px 0px;
+}
+
+.tituloVaga {
+	color: #3f51b5;
+	margin: 0 0 1em;
+}
+
+.infoVaga {
+	background: #fbfcfc;
+	border: 1px solid #d3e3e3;
+	margin: 0 0 2em;
+	padding: 10px;
+	font-size: 13px;
+	list-style: none;
+	overflow: hidden;
+}
+.selo {
+	float: right;
+	width: 19px;
+	height: 19px;
+	text-indent: -9999px;
+	margin: 0 3px;
+}
+
+.seloPCD {
+	background-repeat: no-repeat;
+	background-image: url(/img/logo-pcd.png);
+	background-size: contain;
+	background-position: right;
+	float: right;
+}
+
+
+
+.texto {
+	margin-bottom: 3em;
+	clear: both;
+}
+
+.VagaJava {
+	padding: 40px 0px;
+}
+
+.VagaAside{
+	padding: 40px 0px;
+}
+
+#lateralVaga h2 {
+	border-radius: 5px;
+	color: #474747;
+	font-size: 18px;
+	font-weight: normal;
+	height: 34px;
+	line-height: 34px;
+	margin: 0 0 1.5em;
+	padding: 0 12px;
+}
+
+.listaBullet li {
+	border-bottom: 1px dashed #d1d8db;
+	padding-bottom: 15px;
+	list-style: none;
+	padding-top:  10px;
+}
+
+.listaBullet li a{
+	margin: 7px 0;
+}
+
+
+
+.ButtonVaga button{
+	background-color: #334086;
+	padding: 9px 20px;
+	border: 1px solid #334086;
+	border-radius: 0px;
+	color: #fff;
+}
+
+@media only screen and (max-width: 640px) {
+	.submenu {
+		overflow: hidden;
+		padding: 10px 0px 0px 0px;
+		width: 100%;
+		background-color: #3F51B5;
+	}
+
+	.submenu-contato {
+		width: 100%;
+		float: left;
+	}
+
+	.submenu-contato ul li {
+		float: left;
+		padding-left: 1px;
+		padding-bottom: 10px;
+	}
+
+	.submenu-midias-sociais {
+		width: 100%;
+	}
+
+	.submenu-midias-sociais ul {
+		list-style: none;
+		display: inline-block;
+		float: unset;
+		margin-right: 20px;
+	}
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: #e7e7e7;
+		float: inherit;
+	}
+
+	.PrimeiroBannerHome {
+		background-image: url(../img/banner-home.jpg);
+		height: 480px;
+		background-position: top;
+		background-size: cover;
+	}
+
+	.list-group {
+		padding-left: 0;
+		margin-bottom: 20px;
+		width: 100%;
+		text-align: left;
+		display: inline-block;
+		margin-top: 20px;
+	}
+
+	.list-group-item {
+		position: relative;
+		display: block;
+		padding: 15px 5px;
+		margin-bottom: -1px;
+		/* background-color: #fff; */
+		border: 1px solid #999;
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.mobile-escp{
+		padding-right: 0px!important;
+		padding-left: 0px!important;
+	}
+
+	.QuemSomosHome {
+		margin: 0px;
+		text-align: center;
+		background-image: url(../img/background-img-quem-somos.jpg);
+		height: 540px;
+		background-position: top;
+		background-size: cover;
+		color: #fff;
+		background-attachment: fixed;
+		padding: 40px 0px;
+	}
+
+	.QuemSomosHome p {
+		font-size: 18px;
+		padding: 0px 0px;
+	}
+
+	.Newsletter p {
+		font-size: 17px;
+		padding: 0px 0px;
+		margin-bottom: 40px;
+	}
+
+	.form-news input {
+		border: 1px solid #515151;
+		border-radius: 0px;
+		height: 40px;
+		outline: none;
+		box-shadow: none;
+		font-size: 14px;
+		color: #262626;
+		width: 60%;
+		padding-left: 10px;
+	}
+
+	.ButtonVaga {
+		text-align: center;
+	}
+
+	.VagaJava {
+		padding: 10px 0px 10px 0px;
+	}
+
+	.VagaAside {
+		padding: 0px 0px 10px 0px;
+	}
+
+	.formLogin {
+		padding-right: 10%!important;
+		padding-left: 10%!important;
+	}
+
+	.model-pop {
+		background-color: #fff;
+		height: 327px!important;
+		margin-top: 90px!important;
+		margin-left: 3%!important;
+		margin-right: 3%!important;
+		padding-top: 30px!important;
+		border-radius: 10px!important;
+		border: 1px solid #ccc!important;
+	}
+
+	.body-pop {
+		background-image: url(../img/background-bug-mobile.png)!important;
+		background-size: cover!important;
+	}
+	.model-pop {
+		background-color: #fff;
+		height: 300px;
+		margin-top: 90px;
+		margin-left: 30%;
+		margin-right: 30%;
+		padding-top: 30px;
+		border-radius: 10px;
+		border: 1px solid #ccc;
+	}
+	.icon-pop {
+		font-size: 63px;
+		color: #a5dc86;
+		padding-bottom: 5px;
+	}
+
+	.title-pop {
+		color: rgba(0,0,0,.65);
+		font-weight: 600;
+		text-transform: none;
+		position: relative;
+		display: block;
+		padding: 13px 16px;
+		font-size: 27px;
+		line-height: normal;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.text-pop {
+		font-size: 16px;
+		line-height: normal;
+		vertical-align: top;
+		display: inline-block;
+		margin: 0;
+		padding: 0 10px;
+		font-weight: 400;
+		color: rgba(0,0,0,.64);
+		max-width: calc(100% - 20px);
+		overflow-wrap: break-word;
+		box-sizing: border-box;
+	}
+
+	.button-pop{
+		background-color: #7cd1f9;
+		color: #fff;
+		border: none;
+		box-shadow: none;
+		border-radius: 5px;
+		font-weight: 600;
+		font-size: 14px;
+		padding: 10px 24px;
+		margin: 0;
+		cursor: pointer;
+		margin-top: 20px;
+	}	
+
+}
+
+.body-pop {
+	background-image: url(../img/background-bug.png);
+	background-size: cover;
+}
+.model-pop {
+	background-color: #fff;
+	height: 300px;
+	margin-top: 90px;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-top: 30px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+.icon-pop {
+	font-size: 63px;
+	color: #a5dc86;
+	padding-bottom: 5px;
+}
+
+.title-pop {
+	color: rgba(0,0,0,.65);
+	font-weight: 600;
+	text-transform: none;
+	position: relative;
+	display: block;
+	padding: 13px 16px;
+	font-size: 27px;
+	line-height: normal;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.text-pop {
+	font-size: 16px;
+	line-height: normal;
+	vertical-align: top;
+	display: inline-block;
+	margin: 0;
+	padding: 0 10px;
+	font-weight: 400;
+	color: rgba(0,0,0,.64);
+	max-width: calc(100% - 20px);
+	overflow-wrap: break-word;
+	box-sizing: border-box;
+}
+
+.button-pop{
+	background-color: #7cd1f9;
+	color: #fff;
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 10px 24px;
+	margin: 0;
+	cursor: pointer;
+	margin-top: 20px;
+}
+@media screen (min-width: 500px) and (max-width: 4000px;){
+
 }
